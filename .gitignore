@@ -1,4 +1,5 @@
 node_modules
 *.swp
 bundle.js
-.eslintrc.yml
+
+npm-debug.log
