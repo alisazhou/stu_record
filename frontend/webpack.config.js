@@ -4,6 +4,9 @@ module.exports = {
     filename: './bundle.js',
   },
   module: {
+    resolve: {
+      extensions: [ '', 'js', 'jsx' ]
+    },
     loaders: [
       {
         test: /\.jsx?$/,
