@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "test": "jest --verbose",
+    "test": "jest --watch --verbose",
     "start": "webpack-dev-server --hot --inline"
   },
   "author": "",
